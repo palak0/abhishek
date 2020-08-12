@@ -1,0 +1,83 @@
+#sld{
+    width: 85%;   
+    margin: 0 auto;
+    position: relative;
+}
+
+#video{
+    width: 85%;
+}
+
+#sld>img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#sld>.btn{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    top: 200px;
+    background: black;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+#sld>#btn1:hover{
+    box-shadow: 10px 0px 20px 0px #000;
+}
+
+#sld>#btn2:hover{
+    box-shadow: -10px 0px 20px 0px #000;
+}
+
+
+#sld>#btn1:active, #sld>#btn1:focus{
+    outline:0;
+}
+
+#sld>#btn2:active, #sld>#btn2:focus{
+    outline:0;
+}
+
+#sld>#btn2{
+    position: relative;
+    float: right;
+}
+
+#last{
+  color: #666
+  font-size: 12px
+  display: block
+  position: absolute
+  bottom: 10px
+  position: absolute
+  width: 90%
+  left: 50%
+  top: 45%
+  bottom: auto
+  right: auto
+  transform: translateX(-50%) translateY(-50%)
+  text-align: center
+  a
+    color: #000000
+    text-decoration: none
+  .fa
+    color: #E90606
+    margin: 0 3px
+    font-size: 10px
+    animation: pound .35s infinite alternate
+    -webkit-animation: pound .35s infinite alternate
+
+@-webkit-keyframes pound
+  to
+    transform: scale(1.1)
+
+
+@keyframes pound
+  to
+    transform: scale(1.1)
+}
