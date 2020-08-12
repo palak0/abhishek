@@ -1,0 +1,21 @@
+{
+    "name" : "Chirkut2kaBday",
+    "short_name" : "Chirkut2kaBday",
+    "lang": "en-US",
+    "icons": [
+      {
+        "src" : "icon.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      }
+     
+    ],
+    "description": "FOr wishing birthday",
+    "start_url" : "/",
+    "background_color" : "#fff",
+    "display" : "standalone",
+    "orientation" : "portrait-primary",
+    "scope" : "/",
+    "theme_color" : "#fff"
+    
+}
